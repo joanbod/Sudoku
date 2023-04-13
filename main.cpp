@@ -1,0 +1,16 @@
+#include<iostream>
+#include"header.h"
+
+using namespace std;
+
+int main()
+{
+	int end{};
+	do
+	{
+		end = mainMenu();
+	} while (end);
+
+	system("pause");
+	return 0;
+}
